@@ -1,0 +1,110 @@
+body{
+    background-color: #2273f4f3;
+}
+
+.contenedor{
+    margin: 20px auto;
+    overflow: hidden;
+    width: 90%;
+    max-width: 1000px;
+}
+.Horizontal{
+    width: 100%;
+    height: 54px;
+    background-color: #ffffff;
+    padding: 0%;
+    overflow: hidden;
+    
+}
+.Horizontal a {
+    display: inline-block;
+    padding: 2px 3px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 6px;
+    line-height: 35px;
+}
+.Horizontal a:hover {
+    background-color: #023382;
+    color: white;
+    padding: 10px;
+    margin: 0%;
+}
+.Horizontal ul{
+    display: flex;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 70%;
+    background: #fff;
+    float: left;
+}
+aside{
+    width: 30%;
+    background: #1565c0;
+    color: white;
+    float: left;
+    margin: 0%;
+    padding: 0%;
+}
+
+footer{
+    width: 70%;
+    background: #023382;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    clear: both;
+}
+@media screen and (max-width: 800px){
+    body{
+        background-color: #2273f4f3;
+    }
+}
+
+@media screen and (max-width:768px){
+    .main{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    .Horizontal{
+        width: 100%;
+    }
+}
+h3{
+    position: relative;
+    display: inline;
+    color: #f47222f3;
+}
+h3::after{
+    display: block;
+    width: 95%;
+    height: 1px;
+    background-color: #f47222f3;
+    margin-top: 1px;
+    content: "";
+}
+.widget ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+.widget a{
+    display: inline-block;
+    flex-direction: row;
+    color: #fffffff3;
+    text-decoration: none;
+}
